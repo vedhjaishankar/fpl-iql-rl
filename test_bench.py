@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.linear_model import Ridge
 
 from simulator import FPLEnv, PlayerSimulator
-from policy import StudentPolicy
+from policies.policy import StudentPolicy
 
 
 def build_env_model(df, feature_cols):
